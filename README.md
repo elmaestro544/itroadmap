@@ -25,3 +25,18 @@ text
 ## Deployment
 
 Deployed via Coolify with GitHub integration.
+----------------------
+Build Command:
+npm run build
+
+Start Command:
+npm run preview
+
+Port:
+5173
+
+Base Directory (or Build Path):
+/
+
+Output Directory:
+dist

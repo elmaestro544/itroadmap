@@ -30,7 +30,7 @@ RUN npm install --production
 # Install serve to run the app
 RUN npm install -g serve
 
-EXPOSE 5173
+EXPOSE 3000
 
 # Start the application
-CMD ["serve", "-s", "dist", "-l", "5173"]
+CMD ["serve", "-s", "dist", "-l", "3000"]
